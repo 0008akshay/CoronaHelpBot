@@ -1,0 +1,67 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "covid-19",
+        "patterns": [
+          "What is COVID-19?",
+          "covid19?",
+          "corona virus?"
+        ],
+        "responses": [
+          "COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.  WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of ‘viral pneumonia’ in Wuhan, People’s Republic of China."
+        ]
+      },
+      {
+        "tag": "symptoms",
+        "patterns": [
+          "What are the symptoms of COVID-19?",
+          "symptoms?"
+        ],
+        "responses": [
+          "The most common symptoms of COVID-19 are\nFever\nDry cough\nFatigue",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "vaccines",
+        "patterns": [
+          "which vaccine are available in india?",
+          "vaccines"
+        ],
+        "responses": [
+          "Covaxin, CovidShield, sputnik"
+        ]
+      }
+    ]
+  }
